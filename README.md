@@ -1,15 +1,16 @@
 # nginx-mtproxy
 ## 此脚本基于[https://hub.docker.com/r/ellermister/nginx-mtproxy](https://hub.docker.com/r/ellermister/nginx-mtproxy)和[https://github.com/ellermister/mtproxy](https://github.com/ellermister/mtproxy)修改
-
+修复https://github.com/xb0or/nginx-mtproxy
+新增设置自定义添加白名单页面端口，修复自定义端口出错
 
 ## 一键脚本
 **使用脚本前请确认curl已安装**
 ```
-bash <(curl -sSL "https://raw.githubusercontent.com/xb0or/nginx-mtproxy/main/mtp.sh")
+bash <(curl -sSL "https://raw.githubusercontent.com/mymolasses/nginx-mtproxy/main/mtp.sh")
 ```
 或者
 ```
-bash <(curl -sSL "https://cdn.jsdelivr.net/gh/xb0or/nginx-mtproxy@main/mtp.sh")
+bash <(curl -sSL "https://cdn.jsdelivr.net/gh/mymolasses/nginx-mtproxy@main/mtp.sh")
 ```
 
 ## 其他命令
