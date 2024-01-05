@@ -6,7 +6,7 @@
 ## 一键脚本
 **使用脚本前请确认curl已安装**
 ```
-bash <(curl -sSL "https://raw.githubusercontent.com/mymolasses/nginx-mtproxy/main/mtp.sh")
+bash <(curl -sSL "https://raw.githubusercontent.com/woshiyizi/nginx-mtproxy/main/mtp.sh")
 ```
 或者
 ```
