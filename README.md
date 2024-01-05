@@ -51,4 +51,5 @@ docker rm nginx-mtproxy
 
 ```
 docker update --restart=always nginx-mtproxy
+docker run --name nginx-mtproxy -d -e secret=ee5b5c6835d4944039b80b8a3a125c7e367777772e6d6963726f736f66742e636f6d -e domain=cloudflare.com -e ip_white_list="IP" -p 8080:80 -p 8443:443 ellermister/nginx-mtproxy:latest
 ```
